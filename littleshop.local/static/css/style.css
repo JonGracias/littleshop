@@ -1,0 +1,95 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content {
+    margin: 5px;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 650px;
+    height: 75vh;
+}
+
+h1{
+    color: green;
+    border-bottom: 2px solid purple;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+h3, h2 {
+    font-size: 1.2em;
+    text-align: center;
+    width: 100%;
+    color: purple;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: right;
+    font-size: 0.9em;
+    color: #555;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+form .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form .form-group label {
+    width: 40%;
+    /* margin-right: 10px; */
+    font-weight: bold;
+}
+
+form .form-group input[type="text"],
+form .form-group input[type="number"],
+form .form-group select {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
